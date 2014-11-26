@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Player.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    Player *player1 =[[Player alloc] init];
+    player1.name = @"Suzy";
+    player1.password = @"Viking";
+    NSLog(@"%@", [player1 playerInfo]);
 }
 
 - (void)didReceiveMemoryWarning {

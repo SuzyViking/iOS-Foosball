@@ -15,6 +15,7 @@
 		F80BA1111A25E710000D1499 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80BA1101A25E710000D1499 /* Images.xcassets */; };
 		F80BA1141A25E710000D1499 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80BA1121A25E710000D1499 /* LaunchScreen.xib */; };
 		F80BA1201A25E710000D1499 /* FoosballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80BA11F1A25E710000D1499 /* FoosballTests.m */; };
+		F8DCF19B1A26673C00891612 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DCF19A1A26673C00891612 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		F80BA1191A25E710000D1499 /* FoosballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoosballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80BA11E1A25E710000D1499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80BA11F1A25E710000D1499 /* FoosballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoosballTests.m; sourceTree = "<group>"; };
+		F8DCF1991A26673C00891612 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F8DCF19A1A26673C00891612 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				F80BA1121A25E710000D1499 /* LaunchScreen.xib */,
 				F80BA1071A25E710000D1499 /* Foosball.xcdatamodeld */,
 				F80BA1001A25E710000D1499 /* Supporting Files */,
+				F8DCF1991A26673C00891612 /* Player.h */,
+				F8DCF19A1A26673C00891612 /* Player.m */,
 			);
 			path = Foosball;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				F80BA1031A25E710000D1499 /* main.m in Sources */,
 				F80BA10C1A25E710000D1499 /* ViewController.m in Sources */,
 				F80BA1091A25E710000D1499 /* Foosball.xcdatamodeld in Sources */,
+				F8DCF19B1A26673C00891612 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				F80BA1251A25E710000D1499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80BA1261A25E710000D1499 /* Build configuration list for PBXNativeTarget "FoosballTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				F80BA1281A25E710000D1499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
